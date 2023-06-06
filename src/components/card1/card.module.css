@@ -1,0 +1,70 @@
+.container {
+    width: 905px;
+    height: 500px; 
+    display: flex;
+}
+.card {
+    width: 33.3%;
+    padding: 2rem;
+}
+@media (max-width: 950px) {
+    .container {
+        flex-direction: column;
+        width: 307px;
+    }
+    .card {
+        width: 100%;
+    }
+}
+
+.h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.orange {
+    background-color: rgba(226, 134, 37, 1);
+}
+.blue {
+    background-color: rgba(0, 105, 113, 1);
+}
+.green {
+    background-color: rgba(0, 65, 64, 1);
+}
+.p {
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    line-height: 35px;
+}
+.button {
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.buttonorange {
+   color: rgba(226, 134, 37, 1); 
+}
+.buttonorange:hover {
+    border: 1px solid white;
+    background-color: rgba(226, 134, 37, 1);
+    color: white;
+}
+.buttonblue {
+    color: rgba(0, 105, 113, 1);
+}
+.buttonblue:hover {
+    border: 1px solid white;
+    background-color: rgba(0, 105, 113, 1);
+    color: white;
+}
+.buttongreen {
+    color: rgba(0, 65, 64, 1);
+}
+.buttongreen:hover {
+    border: 1px solid white;
+    background-color: rgba(0, 65, 64, 1);
+    color: white;
+}
