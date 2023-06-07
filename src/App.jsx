@@ -15,6 +15,7 @@ const App = () => {
 		color={card.color}
 		name={card.name}
 		text={card.text}
+		bcolor={card.bcolor}
 		/>
 		))}
 		</div>
