@@ -1,11 +1,14 @@
 .container {
-    width: 905px;
+    width: 100%;
     height: 500px; 
     display: flex;
 }
 .card {
     width: 33.3%;
     padding: 2rem;
+}
+.color {
+    
 }
 @media (max-width: 59.375rem) {
     .container {
@@ -24,7 +27,7 @@
 .orange {
     background-color: rgba(226, 134, 37, 1);
 }
-.blue {
+.darkcyan  {
     background-color: rgba(0, 105, 113, 1);
 }
 .green {
