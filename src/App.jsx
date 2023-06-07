@@ -5,6 +5,7 @@ import { CARDS } from './constants/cards';
 const App = () => {
 	return (
 		<>
+		<div className="container">
 		{
 		CARDS.map(card=>(
 		<Card
@@ -16,6 +17,7 @@ const App = () => {
 		text={card.text}
 		/>
 		))}
+		</div>
 		</>
 	);
 };

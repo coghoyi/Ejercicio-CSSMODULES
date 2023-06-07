@@ -1,4 +1,15 @@
 body {
 	font-family: sans-serif;
 }
-
+.container {
+	display: flex;
+}
+@media (max-width: 1150px) {
+    .container {
+        flex-direction: column;
+        width: 19.1875rem;
+    }
+    .card {
+        width: 100%;
+    }
+}
